@@ -1,0 +1,30 @@
+
+    "computedSkills": [
+        {
+            "durationInMonths": 28,
+            "id_skill": 241,
+            "name": "React"
+        },
+        {
+            "durationInMonths": 28,
+            "id_skill": 270,
+            "name": "Node.js"
+        },
+        {
+            "durationInMonths": 60,
+            "id_skill": 370,
+            "name": "Javascript"
+        },
+        {
+            "durationInMonths": 40,
+            "id_skill": 400,
+            "name": "Java"
+        },
+        {
+            "durationInMonths": 32,
+            "id_skill": 470,
+            "name": "MySQL"
+        }
+    ],
+    "id": 42
+}
