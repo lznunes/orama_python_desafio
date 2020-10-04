@@ -24,3 +24,5 @@ $ python desafio.py
 
 ### URL ACESSO PÚBLICO:
 https://desafiooramanunes.mybluemix.net/freelancer
+
+OBS: foi feito na conta free da IBM com 2000 requisições mensais somente. após este limite para de responder.
