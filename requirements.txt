@@ -1,0 +1,5 @@
+numpy
+pandas
+Flask
+ibm_watson
+flask_restful

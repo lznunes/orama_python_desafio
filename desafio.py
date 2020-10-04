@@ -2,9 +2,14 @@ import json
 from flask import Flask, jsonify, request
 from flask_restful import  Resource, Api
 from tratajson import jsonPrepare
+import os
 
-app = Flask(__name__)
+
+#alteraçao para rodar em cloud
+port = int(os.getenv('PORT', 8000))
+app = Flask(__name__, static_url_path='')
 api = Api(app)
+
 
 #tratamento de erro funcao para payload
 class erroRequest(Exception):
@@ -43,4 +48,4 @@ class freelancer(Resource):
 
 api.add_resource(freelancer, '/freelancer')
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=port)
